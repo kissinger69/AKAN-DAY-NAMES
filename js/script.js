@@ -41,18 +41,21 @@ function akanDayNames() {
         alert( "Good progress.");
            else if (YY < 1000 && YY > 2020);{
            alert("INVALID YEAR!");
-         }
-    }
+        }
+      }    
 
     //maleAkanNames
     //Sunday
-    if (Math.ceil(daysoftheWeek) === [0 - 6]  && sex ==='male') {
+    if (Math.ceil(daysoftheWeek) === [0] && sex ==='male') {
         document.getElementById("results").innerHTML = 
-         "Your Akan Day Name is" + maleAkanNames[0 - 6];
+         "Your Akan Day Name is" + maleAkanNames[0];
     }
-       else if (Math.ceil(daysoftheWeek) ===[0 - 6] && sex ==='female') {
+    //Monday
+    else if (Math.ceil(daysoftheWeek) ===[1] && sex ==='male') {
            document.getElementById("results").innerHTML =
-             "Your Akan Day Name is" + femaleAkanNAmes[0 - 6] ;
-       }
+             "Your Akan Day Name is" + maleAkanNames[0];
+    }
+
+
     
 
