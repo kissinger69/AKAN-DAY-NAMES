@@ -19,5 +19,40 @@ function akanDayNames() {
    } else {
        sex = 'female';
   } 
-}
+
+//Both incoorect and correct date inform user.
+  if (DD >= 1 &&  DD <= 31) {
+    alert("Good progress");
+}   else (DD < 1 || DD > 31) 
+      alert("INVALID DATE!");
+
+//Confirming months.
+  if (MM >= 1  && MM <= 12) {
+    alert("Good progress.");
+}     else if (MM ==2 && DD > 29); {
+         alert("February doesnt have those number of days");
+}  
+   if (MM < 0 || MM > 12) {
+      alert("INVALID MONTH!");
+ } 
+
+   //Confirming year.
+    if(YY > 1000 && YY <2020) {
+        alert( "Good progress.");
+           else if (YY < 1000 && YY > 2020);{
+           alert("INVALID YEAR!");
+         }
+    }
+
+    //maleAkanNames
+    //Sunday
+    if (Math.ceil(daysoftheWeek) === [0 - 6]  && sex ==='male') {
+        document.getElementById("results").innerHTML = 
+         "Your Akan Day Name is" + maleAkanNames[0 - 6];
+    }
+       else if (Math.ceil(daysoftheWeek) ===[0 - 6] && sex ==='female') {
+           document.getElementById("results").innerHTML =
+             "Your Akan Day Name is" + femaleAkanNAmes[0 - 6] ;
+       }
+    
 
