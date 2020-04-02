@@ -21,11 +21,11 @@ function akanNames () {
     } 
 
    if (DD < 1 || DD > 31) {  // incorrect date inform user.
-       alert("INVALID DATE!");
+       alert("INVALID DATE!,ENTER A VALID ONE.");
    } else if (MM < 1 || MM > 12 || (MM == 2 && DD > 29)) {
-       alert("INVALID MONTH");
+       alert("INVALID MONTH!,ENTER A VALID ONE.");
    } else if (YY < 1000 && YY > 2020) {
-     alert("INVALID YEAR!");
+     alert("INVALID YEAR!.ENTER A VALID ONE.");
    } else if (Math.ceil(final) == 0 && gender === "male") {
       document.getElementById("result").innerHTML = 
         "You were born on Sunday,Your Akan Day Name is " + maleAkanName[0];
