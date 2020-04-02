@@ -1,6 +1,22 @@
 h1 {
     color:black;
+    text-align: center;
+    text-decoration: underline;
+    
 }
 h2 {
     color:black;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
 }
+#result {
+    color: lightcoral;
+}
+.paragraph {
+    text-align: center;
+}
+.form {
+    text-align: center;
+}
+
