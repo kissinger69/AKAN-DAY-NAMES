@@ -45,73 +45,73 @@ function akanDayNames() {
     //Sunday
     if (Math.ceil(daysoftheWeek) === 0 && sex ==='male') {
         document.getElementById("results").innerHTML = 
-         "Your Akan Day Name is" + maleAkanNames[0];
+         console.log("Your Akan Day Name is" + maleAkanNames[0]);
     }
     //Monday
     else if (Math.ceil(daysoftheWeek) ===1 && sex ==='male') {
            document.getElementById("results").innerHTML =
-             "Your Akan Day Name is" + maleAkanNames[1];
+            console.log ("Your Akan Day Name is" + maleAkanNames[1]);
     }
     //Tuesday
     else if (Math.ceil(daysoftheWeek)===2 && sex === 'male') {
           document.getElementById("results").innerHTML =
-            "Your Akan Day Name is" + maleAkanNames[2];
+            console.log("Your Akan Day Name is" + maleAkanNames[2]);
     }
     //Wednesday
     else if (Math.ceil(daysoftheWeek) ===3 && sex ==='male') {
       document.getElementById("results").innerHTML =
-        "Your Akan Day Name is" + maleAkanNames[3];
+        console.log("Your Akan Day Name is" + maleAkanNames[3]);
     }
     //Thursday
     else if (Math.ceil(daysoftheWeek) ===4 && sex ==='male') {
       document.getElementById("results").innerHTML =
-        "Your Akan Day Name is" + maleAkanNames[4];
+       console.log("Your Akan Day Name is" + maleAkanNames[4]);
     }
     //Friday
     else if (Math.ceil(daysoftheWeek) ===5 && sex ==='male') {
       document.getElementById("results").innerHTML =
-        "Your Akan Day Name is" + maleAkanNames[5];
+        console.log("Your Akan Day Name is" + maleAkanNames[5]);
     }
      //Saturday
      else if (Math.ceil(daysoftheWeek) ===6 && sex ==='male') {
       document.getElementById("results").innerHTML =
-        "Your Akan Day Name is" + maleAkanNames[6];
+        console.log("Your Akan Day Name is" + maleAkanNames[6]);
     } 
     //FemaleAkanNames
     //Sunday
     if (Math.ceil(daysoftheWeek) === 0 && sex ==='female') {
       document.getElementById("results").innerHTML = 
-       "Your Akan Day Name is" + femaleAkanNames[0];
+       console.log("Your Akan Day Name is" + femaleAkanNames[0]);
   }
   //Monday
   if (Math.ceil(daysoftheWeek) === 1 && sex ==='female') {
     document.getElementById("results").innerHTML = 
-     "Your Akan Day Name is" + femaleAkanNames[1];
+     console.log("Your Akan Day Name is" + femaleAkanNames[1]);
 }
 //Tuesday
 if (Math.ceil(daysoftheWeek) === 2 && sex ==='female') {
   document.getElementById("results").innerHTML = 
-   "Your Akan Day Name is" + femaleAkanNames[2];
+   console.log("Your Akan Day Name is" + femaleAkanNames[2]);
 }
 //Wednesday
 if (Math.ceil(daysoftheWeek) === 3 && sex ==='female') {
   document.getElementById("results").innerHTML = 
-   "Your Akan Day Name is" + femaleAkanNames[3];
+   console.log("Your Akan Day Name is" + femaleAkanNames[3]);
 }
 //Thursday
 if (Math.ceil(daysoftheWeek) === 4 && sex ==='female') {
   document.getElementById("results").innerHTML = 
-   "Your Akan Day Name is" + femaleAkanNames[4];
+   console.log("Your Akan Day Name is" + femaleAkanNames[4]);
 }
 //Friday
 if (Math.ceil(daysoftheWeek) === 5 && sex ==='female') {
   document.getElementById("results").innerHTML = 
-   "Your Akan Day Name is" + maleAkanNames[5];
+   console.log("Your Akan Day Name is" + maleAkanNames[5]);
 }
 //Saturday
 if (Math.ceil(daysoftheWeek) === 6 && sex ==='female') {
   document.getElementById("results").innerHTML = 
-   "Your Akan Day Name is" + femaleAkanNames[6];
+   console.log("Your Akan Day Name is" + femaleAkanNames[6]);
 } else {
    alert('Please enter your information')
 }
