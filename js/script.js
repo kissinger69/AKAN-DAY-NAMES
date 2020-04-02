@@ -37,12 +37,9 @@ function akanDayNames() {
  } 
 
    //Confirming year.
-    if(YY > 1000 && YY <2020) {
-        alert( "Good progress.");
-          else if (YY < 1000 && YY > 2020);{
-            alert("INVALID YEAR!");
-        }
-      }    
+    if (YY < 1000 && YY > 2020) {
+      alert("Good Progress");
+    }
 
     //maleAkanNames
     //Sunday
