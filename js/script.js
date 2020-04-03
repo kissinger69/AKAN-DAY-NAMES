@@ -69,6 +69,6 @@ function akanNames () {
      document.getElementById("result").innerHTML = 
        "You were born on Saturday,Your Akan Day Name is " + femaleAkanName[6];
   } else {
-     alert("Enter all valid data,please");
+     alert("Enter all data,please");
  }
 }
