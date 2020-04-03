@@ -22,4 +22,12 @@ h2 {
 .column {
     text-align: left;
 }
-
+.jumbotron {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+#contact {
+    text-align: center;
+}
