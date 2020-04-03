@@ -1,7 +1,7 @@
-# {AKAN NAMES.}
-#### By **{Helen Yoa Kissinger.}**
+## AKAN NAMES.
+ ## By **{Helen Yoa Kissinger.}**
 ## Description.
-{The project displays various AKAN NAMES of new born babies based on their details of date of birth and gender.This is achieved by filling in a form.}{03-04-2020.}
+The project displays various AKAN NAMES of new born babies based on their details of date of birth and gender.This is achieved by filling in a form.}{03-04-2020.
 ## Set-up/Installation Requirements.
 * View the website in your computer.
 * Clone the website from the repository.
@@ -14,6 +14,6 @@ While creating this website,I used HTML,CSS and JAVASCRIPT.
 If you feel there is an issue with the code or would want to contribute to this code;feel free to contact me.
 Gmail:kissyoa69@gmail.com
 ### License
-**
+
 Copyright (c) {2020} **Helen Yoa Kissinger.**
   
