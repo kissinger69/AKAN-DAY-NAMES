@@ -13,6 +13,7 @@ While creating this website,I used HTML,CSS and JAVASCRIPT.
 ## Support and contact details
 If you feel there is an issue with the code or would want to contribute to this code;feel free to contact me.
 Gmail:kissyoa69@gmail.com
+ https://kissinger69.github.io/AKAN-DAY-NAMES/
 ### License
 MIT License
 
