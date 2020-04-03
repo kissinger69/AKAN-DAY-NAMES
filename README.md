@@ -1,5 +1,5 @@
 ## AKAN NAMES.
- ## By **{Helen Yoa Kissinger.}**
+ ## By ** Helen Yoa Kissinger.**
 ## Description.
 The project displays various AKAN NAMES of new born babies based on their details of date of birth and gender.This is achieved by filling in a form.}{03-04-2020.
 ## Set-up/Installation Requirements.
